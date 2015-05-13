@@ -1,12 +1,21 @@
 ---
-title: 100 Days Till a Full-time Journey
-author: Mike Key
 layout: post
+title: 100 Days Till a Full-time Journey
 permalink: /100-days-till-a-full-time-journey/
+
+by: Mike Key
+
+quote: 
+
+image: /media/default-cover.jpg
+video: false
+
 categories:
   - Motivation
-  - 'News &amp; Updates'
+  - News & Updates
+
 ---
+
 We’re officially announcing the countdown to the launch of our full-time Airstreaming adventure!
 
 On May 1st, 2015, our lives will take a radical departure from the comfort of suburbia and the 9 to 5 grind. We’re giving up our home, most of our possessions and packing ourselves into a 185q ft Airstream. All of this to search out adventure and a simpler life where we can grow as a family and as individuals.

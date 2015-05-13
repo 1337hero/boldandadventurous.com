@@ -1,11 +1,20 @@
 ---
-title: An Update about our Blog
-author: Mike Key
 layout: post
+title: An Update about our Blog
 permalink: /an-update-about-our-blog/
+
+by: Mike
+
+quote: 
+
+image: /media/default-cover.jpg
+video: false
+
 categories:
-  - 'News &amp; Updates'
+  - News & Updates
+  
 ---
+
 We haven&#8217;t posted much content to our site in the past several months.
 
 Since posting about &#8220;[Why we are selling it all to live our dreams][1]&#8221; we have since purchased our Airstream and our Tow Vehicle.

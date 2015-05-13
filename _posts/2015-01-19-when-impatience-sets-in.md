@@ -1,11 +1,20 @@
 ---
-title: When Impatience Sets In
-author: JorDanee
 layout: post
+title: When Impatience Sets In
 permalink: /when-impatience-sets-in/
+
+by: JorDanee
+
+quote: 
+
+image: /media/default-cover.jpg
+video: false
+
 categories:
-  - Life
+  - Real Life
+
 ---
+
 It&#8217;s January. I want to be out of the house and in the Airstream by the end of March. Why? Because Baby #2 is due the last week of March/first week of April.
 
 I honestly don&#8217;t care if we&#8217;re on the road full time at that point or not. I just want to be out of this house and in my silver home. I want to sit back and enjoy being a new mom and watching Alex learn to be a big sister. I want to be available for Alex as she transitions from being the only kid to being the older kid. I don&#8217;t want to spend maternity leave knee deep in yard sales or packing stuff up for donation. I don&#8217;t want to be cleaning the house for the next set of tenants and caring for two kids under two. And I certainly don&#8217;t want to be doing all that while recovering from a c-section.

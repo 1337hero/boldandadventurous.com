@@ -1,10 +1,18 @@
 ---
-title: Desire Follows Direction
-author: Mike Key
 layout: post
+title: Desire Follows Direction
 permalink: /desire-follows-direction/
+
+author: Mike 
+
+quote: 
+
+image: /media/default-cover.jpg
+video: false
+
 categories:
   - Motivation
+
 ---
 This is a reposting from my personal blog at <a title="Desire Follow Direction" href="https://mk3y.com/desire-follows-direction" target="_blank" rel="author">mk3y.com</a>
 

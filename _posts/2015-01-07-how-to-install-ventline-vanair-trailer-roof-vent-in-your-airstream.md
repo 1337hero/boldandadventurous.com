@@ -1,11 +1,21 @@
 ---
-title: 'HOW TO: Install Ventline Roof Vent in your Airstream'
-author: Mike Key
 layout: post
+title: 'HOW TO: Install Ventline Roof Vent in your 
+Airstream'
 permalink: /how-to-install-ventline-vanair-trailer-roof-vent-in-your-airstream/
+
+by: Mike
+
+quote: 
+
+image: /media/default-cover.jpg
+video: false
+
 categories:
   - Guides
+
 ---
+
 Purchasing a used Airstream meant there would be some things to replace or fix. One of the items on our list in preparation for full timing was the exhaust vents in both the head and shower.
 
 On our 2007 Airstream International Signature, both the head (bathroom) and shower have a 6 1/4&#8243; Ventline Vanair exhaust fan.

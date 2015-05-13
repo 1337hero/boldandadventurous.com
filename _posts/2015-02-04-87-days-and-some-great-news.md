@@ -1,11 +1,20 @@
 ---
-title: 'Pulse Check: 87 Days and Some Great News!'
-author: JorDanee
 layout: post
+title: 'Pulse Check: 87 Days and Some Great News!'
 permalink: /87-days-and-some-great-news/
+
+by: JorDanee
+
+quote: 
+
+image: /media/default-cover.jpg
+video: false
+
 categories:
-  - 'News &amp; Updates'
+  - News & Updates
+  
 ---
+
 23 days down. 87 more to go.
 
 We&#8217;ve scheduled our big, massive yard sale for the last weekend in February/first weekend in March. I&#8217;m hoping we&#8217;ll see most everything go in that sale that hasn&#8217;t already moved on Craigslist or isn&#8217;t going in the Airstream with us. I&#8217;m pretty confident that I&#8217;ve sorted 80% of the house for the sale. Now that the Corvette is sold (and out of the garage), I&#8217;ll start moving garage sale items out there and out of the spare bedroom. That&#8217;ll give me a chance to get everything priced and take a final inventory of what&#8217;s what.

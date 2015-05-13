@@ -1,8 +1,15 @@
 ---
-title: Instagram Inspiration
-author: Mike Key
 layout: post
+title: Instagram Inspiration
 permalink: /instagram-inspiration/
+
+by: Mike
+
+quote: 
+
+image: /media/default-cover.jpg
+video: false
+
 categories:
   - Motivation
 ---

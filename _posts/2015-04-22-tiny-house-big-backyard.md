@@ -3,7 +3,7 @@ layout: post
 title: Tiny House, Big Backyard
 permalink: /tiny-house-big-backyard/
 
-by: "Mike"
+by: Mike
 
 quote: Broken latches, Walmart parking lots, fires in the wrong places, and Airganization
 
