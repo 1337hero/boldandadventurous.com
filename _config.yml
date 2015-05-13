@@ -1,0 +1,78 @@
+#Getting Started Yo
+title:      Bold&Adventurous
+tagline:    'Tiny house, big backyard! Family of 4 traveling the USA in a Airstream.'
+description:    'Tiny house, big backyard! Family of 4 traveling the USA in a Airstream.'
+
+baseurl: ""
+url: "https://boldandadventurous.com"
+
+# Dependencies
+markdown:	kramdown
+highlighter: pygments
+
+# Permalinks
+permalink:	pretty
+
+#Display Settings
+paginate:	5
+paginate_path: "page:num"
+
+# Custom vars
+icon:		/assets/images/icon.png
+cover:		/assets/images/cover.jpg
+
+social:
+  # - icon:	twitter
+  #   url:	https://twitter.com/mike_key
+  #   desc:	Follow us on twitter
+
+  - icon:   facebook
+    url:    https://facebook.com/boldadventure
+    desc:   Follow us on Facebook
+
+  - icon:   instagram
+    url:    https://facebook.com/boldadventure
+    desc:   Follow us on Instagram    
+
+  - icon:   youtube
+    url:    https://facebook.com/boldadventure
+    desc:   Follow us on Instagram 
+
+  - icon:	googleplus-alt
+    url:	https://google.com/+Boldandadventurous
+    desc:	Add us on google+
+
+  - icon:	feed
+    url:	http://boldandadventurous.com/atom.xml
+    desc:	Subscribe to my feed
+
+# Nabigation
+menu:
+  - title:	Home
+    url:	/
+
+  - title:	About
+    url:	/about
+
+
+copyright:
+  author:	MK3Y, LLC
+  url:		http://mk3y.com
+  type_title:	All Rights Reserved
+  type_url:	http://creativecommons.org/licenses/by-nc/2.5
+
+# Extra Gems
+gems:
+  - jekyll-sitemap
+
+# Build settings
+timezone: America/New York
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Assets Pipeline
+sass:
+ sass_dir: "assets/css/"
+ style: :compressed
