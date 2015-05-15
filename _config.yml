@@ -1,7 +1,7 @@
 #Getting Started Yo
 title:      Bold&Adventurous
-tagline:    'Tiny house, big backyard! Family of 4 traveling the USA in a Airstream.'
-description:    'Tiny house, big backyard! Family of 4 traveling the USA in a Airstream.'
+tagline:    "Tiny house, big backyard! We're a family of 4 traveling the USA in our Airstream."
+description:    "Tiny house, big backyard! We're a family of 4 traveling the USA in our Airstream."
 
 baseurl: ""
 url: "https://boldandadventurous.com"
@@ -19,7 +19,7 @@ paginate_path: "page:num"
 
 # Custom vars
 icon:		/assets/images/icon.png
-cover:		/assets/images/cover.jpg
+cover:		/assets/images/new-cover.jpg
 
 social:
   # - icon:	twitter
