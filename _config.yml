@@ -1,11 +1,11 @@
 #Getting Started Yo
-title:      Bold&Adventurous
-tagline:    "BoldandAdventurous"
-byline:     "Tiny house, big backyard! Family of 4 sold it all to travel the USA in an Airstream."
-description:    "Tiny house, big backyard! We're a family of 4 traveling the USA in our Airstream."
+title:       Bold&Adventurous
+tagline:     "BoldandAdventurous"
+byline:      "Tiny house, big backyard! Family of 4 sold it all to travel the USA in an Airstream."
+description: "Tiny house, big backyard! We're a family of 4 traveling the USA in our Airstream."
 
-baseurl: ""
-url: "https://boldandadventurous.com"
+baseurl:     ""
+url:         "https://boldandadventurous.com"
 
 # Dependencies
 markdown:	kramdown
