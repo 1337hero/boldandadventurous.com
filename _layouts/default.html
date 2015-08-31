@@ -1,7 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 {% include head.html %}
-<body>
-	{{ content }}
+<body class="animated fade-in-down">
+
+    {% if paginator.posts %}
+        {% include hero-image.html %}
+    {% endif %}
+
+    <div class="site-wrap">
+        {% include header.html %}
+
+        {{ content }}
+
+        {% include navigation.html %}
+    </div>
+
+    {% include footer.html %}
 </body>
 </html>
