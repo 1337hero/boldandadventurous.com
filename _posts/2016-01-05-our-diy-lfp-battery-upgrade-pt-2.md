@@ -5,7 +5,7 @@ permalink: /our-diy-lfp-battery-upgrade-pt-2/
 
 by: "Mike"
 
-cover: /media/lfp-p2.jpg
+cover: http://noeltock-static.s3.amazonaws.com/wp-content/uploads/2015/12/medium.jpg
 
 categories:
   - DIY, Airstream

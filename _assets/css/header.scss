@@ -46,6 +46,8 @@
     letter-spacing: -.02rem;
     z-index: 1;
     margin-top: 10px;
+        -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
      &:before {
         position: absolute;
         content: '';
