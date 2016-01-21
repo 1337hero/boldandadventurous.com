@@ -64,14 +64,14 @@ Some people have purchased factory direct. I tried but found the logistics too d
 
 I chose to go with GBS Cells and used Elite Power Solutions since they had a dealer in Yuma, AZ when I was there.
 
-Also, AMSolar is selling a “kit” for RVers. Their kit includes cells from Sinopoly. And includes a BMS and Sense boards from Clean Power Auto. The kit includes all necessary wires and cables in a convenient package. 
+Also, AMSolar is selling a “kit” for RVers. Their kit includes cells from Sinopoly. And includes a BMS and Sense boards from Clean Power Auto. The kit includes all necessary wires and cables in a convenient package. However there are some disadvantages to AMSolar's approach. 
 
 <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/1014109_1515854285377600_203220778352229125_n.png?oh=7f77112a76a1e05e3675f3d6ae9d0b6e&oe=57108401" alt="AMSolar Lithium Batteries">
 
 
-## Battery Management System
+## The Battery Management System
 
-Lithiums need some special care when used. And because of this, you’ll want to buy a battery management system (BMS).
+Lithiums need some special care when used. And because of this, you’ll need to buy a battery management system (BMS).
 
 The purpose of a BMS is to protect the lithium cells in the event of over voltage or under voltage conditions. Two scenarios that may cause damage to the cells.
 
@@ -89,7 +89,9 @@ There were only 2 BMS systems I considered. The Elite EMS and Clean Power Auto�
 
 I chose the Elite EMS since I could get everything from the same source. And it had a couple of extra features, a remote display and included a battery capacity monitor. And it also monitors cell temperature. Clean Power Auto offers most of the additional features as a separate option but still does not offer cell level voltage and temperature display.
 
-## Why I chose the GBS 100Ah cells vs. 200Ah cells
+(This is one of the downsides to AMSolar's use of the House BMS. You get no read out on the individual cells or their temperature. You'll have to relay on a 3rd party battery monitoring system.)
+
+## Why I chose the 100Ah GBS Lithiums
 
 For a number of reasons;
 
@@ -123,32 +125,9 @@ The GBS chemistry is LiFeMnPO4 in these cells. They are the first cells to have 
 **Availability**
 There are several US distributors for this brand. One happened to be close to my location. I purchased mine from Starlight Solar Power Systems in Yuma, AZ over Thanksgiving.
 
-## The Plan
+## Putting it all together
 
-We planned to do our system in 3 phases. As I started this post, we needed batteries NOW. So I purchased the batteries before I bought a single piece of the system components.
+To build a complete system I would need a bank of lithium batteries and a battery management system.
 
-<img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xpa1/t31.0-8/12244766_1511312799165082_6191847071797880395_o.jpg" alt="the batteries">
+Hopefully this post was informative. In my next post, I’ll be detailing the installation of the battery bank in our Airstream.
 
-**Phase 1** includes installing the new lithiums and system components. Upgrading all wiring and future proofing the system. Relocating the solar charge controller and shorting the solar run while also upgrading the solar wiring from 6awg to 4awg. We will also be adding a 4th solar panel to the roof to complement the existing three 135 watt panels. This panel will be a GS100 - 100-watt panel from AMSolar. Installing all necessary safeties, fuses, new blocks, etc.
-
-**Phase 2** after the new year will include a new Solar Charge controller. We will slave the original controller to the new one. And build a 200-watt ground deploy solar panel using two GS100 panels. 
-
-**Phase 3** will be the addition of a 3000 watt Magnum Hybrid inverter with a separate ac panel and switch over. This is planned for around late spring just before the start of summer. This will allow us the use of our A/C when combined with our Honda generator.
-
-Our initial system will be made up of:
-
-Main battery bank, comprised of 16 3.2V GBS cells. 
-
-Elite BMS (battery management system) with video monitor. A master disconnect solenoid wired to the OV and UV on the BMS.  
-
-1. A master On/Off switch. 
-
-2. A Blue Sky Solar Charge Controller to connect to the roof-mounted PV system. 
-
-3. A 600-watt Samlex inverter isolated with a 300-amp bus fuse.
-
-4. The Airstream’s 12V power will have a 50 amp breaker switch between the Airstream and the main battery bank.
-
-## Final Remarks
-
-Hopefully this post was informative. In my next post, I'll be detailing the installation of the battery bank in our Airstream.

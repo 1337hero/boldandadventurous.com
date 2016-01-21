@@ -2,24 +2,26 @@
 layout: default
 ---
 
+<progress value="0" id="progressBar">
+  <div class="progress-container">
+    <span class="progress-bar"></span>
+  </div>
+</progress>
+
 {% assign minutes = content | number_of_words | divided_by: 180 %}
 {% if minutes == 0 %}
 {% assign minutes = 1 %}
 {% endif %}
 
-<!-- Stolen from Joshtronic.com  -->
-<a href="/" class="close">&times;</a>
-<!-- Stolen from Joshtronic.com  -->
+{% include hero-image.html %}
+
 
 <section class="post-content">
-        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-        <time datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time>
-        <span class="post-meta small">{{ minutes }} minute read</span>
-        <span>
+        <!-- <span>
             {% for category in page.categories %}
                 {{ category }} 
             {% endfor %}
-        </span>
+        </span> -->
     <article class="post">
         <section class="postbody">
             {{ content }}
