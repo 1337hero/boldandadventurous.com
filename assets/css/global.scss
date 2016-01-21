@@ -11,15 +11,51 @@ body {
     padding: 0;
     margin: 0;
 
-font-family: "Sentinel SSm A", "Sentinel SSm B", serif;
-    line-height: 1.7;
     font-size: 20px;
-    color: #273645;
-    background: #f9f9f9;
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out
 
+    font-family: "Sentinel SSm A","Sentinel SSm B",serif;
+    line-height: 1.7em;
+
+    font-weight: 400;
+    color: #333;
+    background: #f9f9f9;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
 }
+
+// TO USE OR NOT TO USE? THAT IS THE QUESTION
+
+// @media (min-width: 480px) {
+//     body {
+//         font-size: 18px;
+//         -webkit-transition: all .2s ease-out;
+//         transition: all .2s ease-out;
+//     }
+// }
+
+// @media (min-width: 768px) {
+//     body {
+//         font-size: 20px;
+//         -webkit-transition: all .2s ease-out;
+//         transition: all .2s ease-out;
+//     }
+// }
+
+// @media (min-width: 1366px) {
+//     body {
+//         font-size: 26px;
+//         -webkit-transition: all .2s ease-out;
+//         transition: all .2s ease-out;
+//     }
+// }
+
+// @media (min-width: 1600px) {
+//     body {
+//         font-size: 32px;
+//         -webkit-transition: all .2s ease-out;
+//         transition: all .2s ease-out;
+//     }
+// }
 
 h1,
 h2,
@@ -38,24 +74,28 @@ li {
     display: block;
 }  
 
-p,
-li {
-
-}
-
 p {
     margin-top: 0;
-
 }
 
 h1, h2, h3, h4 {
-    font-family: "Gotham SSm A", "Gotham SSm B", sans-serif
+    font-family: "Gotham SSm A","Gotham SSm B",sans-serif;
 }
 
 h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: .75rem;
+    line-height: 1em;
+    @media (min-width: 480px) {
+        font-size: 4em;
+    }
 }
 
 h2 {
+    font-size: 1.5em;
+    margin-top: 2em;
 }
 
 h3 {
@@ -116,30 +156,9 @@ a:focus {
 ::-moz-selection { background: #fff0b9; }
 ::selection { background: #fff0b9; }
 
-.site-wrap {
-    position: relative;
-    width: auto;
-    max-width: 780px;
-    margin-right: auto;
-    margin-left: auto;
-    &::after,
-    &::before {
-        content: '';
-        display: table
-    }
-    &::after {
-        clear: both
-    }
-    @media handheld, only screen and (max-width:814px) {
-        margin-left: 4rem;
-        margin-right: 4rem
-    }
-    @media handheld, only screen and (max-width:600px) {
-        margin-left: 3rem;
-        margin-right: 3rem
-    }
-    @media handheld, only screen and (max-width:400px) {
-        margin-left: 2rem;
-        margin-right: 2rem
-    }
+
+.post-content {
+    max-width: 34em;
+    margin: 1em auto 3em;
+    padding: 0.5em;
 }

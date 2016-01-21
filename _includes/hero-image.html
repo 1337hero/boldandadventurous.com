@@ -2,7 +2,8 @@
 <div class="hero-image" style="background-image:url('{{ page.cover }}');">  
     <div class="hero-image-content">
         <h1>{{ page.title }}</h1>
-        <div class="hero-meta">{{ minutes }} minute read - <time datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time>
+        <div class="hero-meta">
+        {{ minutes }} minute read - <time datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time> - {{ tags_content }}
         </div>
     </div>
 </div>
