@@ -5,13 +5,11 @@ permalink: /instagram-inspiration/
 
 by: Mike
 
-quote: 
-
-image: /media/default-cover.jpg
-video: false
+cover: https://s3.amazonaws.com/boldadventure-cdn/default.jpg
 
 categories:
   - Motivation
+  
 ---
 Instagram has been a powerful motivating force in our family&#8217;s journey towards our dreams.
 

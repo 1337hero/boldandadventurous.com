@@ -5,13 +5,10 @@ permalink: /our-first-week-full-timing/
 
 by: "JorDanee"
 
-quote: Broken latches, Walmart parking lots, fires in the wrong places, and Airganization
-
-image: /media/2015-05-08-our-first-week-full-timing/cover.jpg
-video: false
+cover: https://s3.amazonaws.com/boldadventure-cdn/default.jpg
 
 categories:
-  - Real Life
+  - News
   
 ---
 

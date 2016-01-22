@@ -5,13 +5,11 @@ permalink: /87-days-and-some-great-news/
 
 by: JorDanee
 
-quote: 
-
-image: /media/default-cover.jpg
-video: false
+cover: https://s3.amazonaws.com/boldadventure-cdn/default.jpg
 
 categories:
-  - News & Updates
+  - News
+  
   
 ---
 

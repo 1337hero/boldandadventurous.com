@@ -5,14 +5,10 @@ permalink: /40-days-and-2020-hindsight/
 
 by: JorDanee
 
-quote: 
-
-image: /media/default-cover.jpg
-video: false
+cover: https://s3.amazonaws.com/boldadventure-cdn/default.jpg
 
 categories:
-  - Airstream
-  - News & Updates
+  - News
 
 ---
 

@@ -5,13 +5,10 @@ permalink: /why-no-updates/
 
 by: "Mike"
 
-
-image: false
-
-video: false
+cover: https://s3.amazonaws.com/boldadventure-cdn/default.jpg
 
 categories:
-  - Real Life
+  - News
   
 ---
 

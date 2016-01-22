@@ -5,13 +5,10 @@ permalink: /tiny-house-big-backyard/
 
 by: Mike
 
-quote: Broken latches, Walmart parking lots, fires in the wrong places, and Airganization
-
-image: /media/default-cover.jpg
-video: false
+cover: https://s3.amazonaws.com/boldadventure-cdn/default.jpg
 
 categories:
-  - News & Updates
+  - News
   
 ---
 

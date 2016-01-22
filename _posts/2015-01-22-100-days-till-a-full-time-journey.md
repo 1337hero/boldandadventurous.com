@@ -5,14 +5,11 @@ permalink: /100-days-till-a-full-time-journey/
 
 by: Mike Key
 
-quote: 
-
-image: /media/default-cover.jpg
-video: false
+cover: https://s3.amazonaws.com/boldadventure-cdn/default.jpg
 
 categories:
-  - Motivation
-  - News & Updates
+  - News
+  
 
 ---
 
