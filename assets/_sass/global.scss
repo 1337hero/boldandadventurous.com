@@ -1,0 +1,123 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            position: relative;
+}
+
+html {
+        position: relative;
+    @media (min-width: 768px) {
+        font-size: 18px;
+    }
+    @media (min-width: 480px) {
+        font-size: 20px;
+    }
+}
+
+body {
+    position: relative;
+
+    margin:0;
+    padding:0;
+
+    font-family: "Sentinel SSm A","Sentinel SSm B",serif;
+    font-weight: 400;
+    line-height: 1.7em;
+
+    background: #fff;
+    color: #0F120B;
+
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+}  
+
+p {
+    margin-top: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Gotham SSm A","Gotham SSm B",sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1em;
+    @media (min-width: 480px) {
+        font-size: 4em;
+    }
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a,
+button {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+}
+
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+    color: #1d9cd6;
+}
+
+a:hover, 
+a:focus {
+    color: #2795b6;
+}
+
+::-moz-selection { background: #fff0b9; }
+::selection { background: #fff0b9; }

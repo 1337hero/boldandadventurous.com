@@ -8,9 +8,7 @@ by: "Mike"
 cover: http://noeltock-static.s3.amazonaws.com/wp-content/uploads/2015/12/medium.jpg
 
 categories:
-  - DIY, Airstream
-  
-
+  - DIY
   
 ---
 
@@ -21,7 +19,7 @@ I had done a lot of research already leading up to the purchase. And decided we'
 
 But as I stated in Part 1, we needed batteries NOW. So the first phase of this project would focus on getting us up and running with lithiums. So over thanksgiving I picked up the 4 batteries, sense boards and BMS from Starlight Solar in Yuma.
 
-<img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xpa1/t31.0-8/12244766_1511312799165082_6191847071797880395_o.jpg" alt="the batteries">
+<figure><img src="http://noeltock-static.s3.amazonaws.com/wp-content/uploads/2015/12/medium.jpg" alt="the batteries" class="fullsize"></figure>
 
 Our planned three phases are as follows:
 

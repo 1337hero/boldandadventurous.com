@@ -1,9 +1,18 @@
 ---
-layout: default
+layout: compress
 ---
 
-<div class="home" role="main">
-    <article>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+
+        <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
+
+    </head>
+<body>
+
+    <div class="animated fade-in-down">
         <ul class="entry-list">
         {% for post in paginator.posts %}
             <li>
@@ -14,8 +23,10 @@ layout: default
             </li>
             {% endfor %}
         </ul>        
-    </article>
     
     {% include pagination.html %}
+    </div>
 
-</div>
+    {% include footer.html %}
+</body>
+</html>

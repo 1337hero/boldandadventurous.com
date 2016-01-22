@@ -1,38 +1,70 @@
 ---
-layout: default
+layout: compress
 ---
 
-{% assign minutes = content | number_of_words | divided_by: 180 %}
-{% if minutes == 0 %}
-{% assign minutes = 1 %}
-{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.html %}
 
+        <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
 
-    <progress value="0" id="progressBar">
-      <div class="progress-container">
-        <span class="progress-bar"></span>
-      </div>
-    </progress>
+    </head>
+<body>
 
-    {% include hero-image.html %}
+    {% assign minutes = content | number_of_words | divided_by: 180 %}
+    {% if minutes == 0 %}
+    {% assign minutes = 1 %}
+    {% endif %}
 
-    <article class="post-content">
-        {{ content }}
-    </article>
+    <a href="/" class="close">&times;</a>
 
+    <progress value="0"></progress>
 
-<div class="wrap">
-    <nav class="pagination">
-        {% if page.previous.url %}
-            <div>
-                <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
-            </div> 
-        {% endif %} 
-        
-        {% if page.next.url %} 
-            <div style="text-align: right;">
-                <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a> 
+    <div class="article animated fade-in-down">
+        <article>
+            <!-- HERO IMAGE & INTRO -->
+            <header class="hero-image" style="background-image:url('{{ page.cover }}');">  
+                <div class="hero-title-meta">
+                    <h1>{{ page.title }}</h1>
+                    <div class="meta">
+                    {{ minutes }} minute read - <time datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time> - {{ tags_content }}
+                    </div>
+                </div>
+            </header>
+            <div class="article-content">
+                {{ content }}
             </div>
+        </article>
+    </div>
+
+    <nav class="article-prev-next">
+        {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}" style="background-image:url('{{ page.previous.cover }}');">
+            <div class="prev-next-content">
+                <span>Previous Article</span>
+                <h3>{{page.previous.title}}</h3>
+            </div>
+         </a> 
+        {% endif %} 
+            
+        {% if page.next.url %} 
+        <a class="next" href="{{page.next.url}}" style="background-image:url('{{ page.cover }}');">
+            <div class="prev-next-content">
+                <span>Next Article</span>
+                <h3>{{page.next.title}}</h3>
+            </div>
+        </a> 
+        {% else %}
+        <a class="next" href="{{page.next.url}}" style="background-image:url('{{ page.cover }}');">
+            <div class="prev-next-content">
+                <span>Up Next</span>
+                <h3>{{page.next.title}}</h3>
+            </div>
+        </a> 
         {% endif %}
     </nav>
-</div>
+
+    {% include footer.html %}
+</body>
+</html>

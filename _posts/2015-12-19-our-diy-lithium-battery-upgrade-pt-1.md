@@ -5,15 +5,13 @@ permalink: /our-diy-lithium-battery-upgrade-pt-1/
 
 by: "Mike"
 
-
-image: false
-
-video: false
+cover: /media/lfp-p2.jpg
 
 categories:
-  - DIY, Airstream
+  - DIY
   
 ---
+
 
 We awoke one morning to find ourselves cold. I stumbled to the galley and took a look at the IPN Remote display. The voltage readout was 8.9 volts. Begrudgingly I put on my pants, coat and shoes to head outside and fire up the generator. My least favorite activity when it’s 42 outside with 15mph wind gusts.
 

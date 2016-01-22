@@ -3,8 +3,8 @@ tagline:        "Bold & Adventurous"
 description:    "Tiny house, big backyard! We're a family of 4 traveling the USA in our Airstream."
 email:          "mike@mk3y.com"
 
-baseurl:     ""
-url:         "https://boldandadventurous.com"
+baseurl:     
+url:         https://boldandadventurous.com
 
 markdown:	kramdown
 
@@ -19,7 +19,8 @@ gems:
 exclude:
     - README.md
     - CNAME
+    - Gemfile
 
 sass:
-    sass_dir: "_assets/css/"
+    sass_dir: "assets/_sass/"
     style: compressed
