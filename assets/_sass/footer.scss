@@ -4,9 +4,12 @@ footer {
     text-align: center;
     font-size: 12px;
     letter-spacing: 1px;
-    background-color: #000;
-    color: #fff;
+    background-color: #252525;
+    color: rgba(255,255,255,0.6);
     a {
-        color: #fff;
+        color: rgba(255,255,255,0.6);
+        &:hover {
+            color: rgba(255,255,255,1);
+        }
     }
 }

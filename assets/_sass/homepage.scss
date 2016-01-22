@@ -1,4 +1,14 @@
 .entry-list {
+    margin: 1em auto 3em;
+ 
+    max-width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
+    padding: 0 20px;
     li {
         list-style: none;
         margin-bottom: 1.333em;
@@ -6,13 +16,47 @@
         border-bottom: thin solid #f3f3f3;
     }
     h3 {
-        margin-top: .125em;
+        line-height: 2.2rem;
         font-weight: 600;
-        font-size: 2.8rem;
+        font-size: 2rem;
         color: #222;
         a:focus,
         a:hover {
-            color: #55acee;
+            color: #ee8925;
         }
     }
 } 
+
+.pagination {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    margin: 1em auto 3em;
+ 
+    max-width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
+    padding: 0 20px;
+
+    div {
+       flex-grow: 1;
+        &:nth-child(1) {
+            text-align: left;
+        }
+        &:nth-child(2) {
+            text-align: center;
+        }
+        &:nth-child(3) {
+            text-align: right;
+        }
+    }
+}

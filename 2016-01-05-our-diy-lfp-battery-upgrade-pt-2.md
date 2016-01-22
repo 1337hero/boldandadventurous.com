@@ -5,7 +5,7 @@ permalink: /our-diy-lfp-battery-upgrade-pt-2/
 
 by: "Mike"
 
-cover: http://noeltock-static.s3.amazonaws.com/wp-content/uploads/2015/12/medium.jpg
+cover: https://s3.amazonaws.com/boldadventure-cdn/cover.jpg
 
 categories:
   - DIY
@@ -47,10 +47,10 @@ We honestly don't have a need for this much power, but we are interested in usin
 
 
 ## System Over-view Diagram
-
+test
 
 ## Supplies purchased for Phase 1
-
+test
 
 ### Battery Hardware
 

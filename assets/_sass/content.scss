@@ -9,9 +9,10 @@ progress {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
+
     border: none;
     background-color: transparent;
-    color: #1d9cd6;
+    color: #1A7C92;
     z-index: 999;
 }
 
@@ -20,15 +21,15 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-    background-color: #1d9cd6;
+    background-color: #1A7C92;
 }
 
 progress::-moz-progress-bar {
-    background-color: #1d9cd6;
+    background-color: #1A7C92;
 }
 
 a.close {
-    background-color: #1d9cd6;
+    background-color: #ccc;
     -webkit-border-radius: 50% 0 50% 50%;
     -moz-border-radius: 50% 0 50% 50%;
     border-radius: 50% 0 50% 50%;
@@ -44,35 +45,52 @@ a.close {
     text-align: center;
     z-index: 999;
     &:hover {
-        background-color: #e34b4f; 
+        background-color: #1A7C92; 
     }
-}
-
-.header {
-  width: 100%;
-  position: fixed;
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  height: 85px;
-  border: none;
-  background-color: rgba(255,255,255,1);
-  box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2);
 }
 
 .article-content {
     margin: 1em auto 3em;
     > * {
-        max-width: 33em;
+        max-width: 690px;
         margin-left: auto;
         margin-right: auto;
 
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
+
+        padding: 0 20px;
     }
     > img.size-full,
     > figure {
-        max-width: 100%
+        max-width: 100%;
+        padding: 0;
+    }
+    a:link {
+        color: #7ab55c;
+        text-decoration: none;
+        text-shadow: .03em 0 #fff,-.03em 0 #fff,0 .03em #fff,0 -.03em #fff,.06em 0 #fff,-.06em 0 #fff,.09em 0 #fff,-.09em 0 #fff,.12em 0 #fff,-.12em 0 #fff,.15em 0 #fff,-.15em 0 #fff;
+        background-image: linear-gradient(#fff,#fff),linear-gradient(#fff,#fff),linear-gradient(rgba(252, 120, 31,.35),rgba(252, 120, 31,.35));
+        background-size: .05em 1px,.05em 1px,1px 1px;
+        background-repeat: no-repeat,no-repeat,repeat-x;
+        background-position: 0 90%,100% 90%,0 90%;
+    }
+    ul {
+         list-style-type: none;
+    }
+    ul li {
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+        color: #666;
+        font-size: .9em;
+    }
+    ul li:before {
+        padding-right: 10px;
+        content: '--';
+    }
+    h2,h3,h4,h5 {
+        padding: 40px 20px 20px;
     }
 }
 
@@ -133,9 +151,9 @@ a.close {
         width: 100%;
         position: relative;
         font-size: .8em;
-        color: #1d9cd6;
+        color: rgba(255,255,255,.6);
         padding-bottom: 0;
-        font-family: "Gotham SSm A","Gotham SSm B",sans-serif;
+        font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         font-weight: 400;
         text-transform: uppercase;
         &:after {
@@ -143,18 +161,21 @@ a.close {
             content: "";
             left: 0;
             bottom: -10px;
-            border-bottom: 3px solid #1d9cd6;
+            border-bottom: 3px solid rgba(255,255,255,.6);
             width: 20px;
         }
     }
     h3 {
         padding-top: 20px;
-        line-height: 1.2;
+        line-height: 1.2em;
         text-transform: uppercase;
         font-weight: 800;
-        font-size: 36px;
-        color: #fff;
+        font-size: 1.5rem;
+        color: rgba(255,255,255,.6);
         padding-bottom: 0;
         margin-bottom: 0;
+    }
+    &:hover h3 {
+        color: rgba(255,255,255,1);
     }
 }
