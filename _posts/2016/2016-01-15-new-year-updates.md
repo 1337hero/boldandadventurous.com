@@ -1,8 +1,5 @@
 ---
 layout: post
-title: "New Year Updates"
-permalink: /new-year-updates/
-
 by: "Mike"
 
 cover: https://s3.amazonaws.com/boldadventure-cdn/quick-updates.jpg
