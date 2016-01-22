@@ -5,7 +5,7 @@ permalink: /our-diy-lithium-battery-upgrade-pt-1/
 
 by: "Mike"
 
-cover: /media/lfp-p2.jpg
+cover: https://s3.amazonaws.com/boldadventure-cdn/lffp-pt1.jpg
 
 categories:
   - DIY

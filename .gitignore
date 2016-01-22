@@ -2,5 +2,6 @@ drafts/
 _site
 .sass-cache
 .DS_Store
+media
 *.swap
 Gemfile.lock
