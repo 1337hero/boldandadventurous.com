@@ -1,7 +1,5 @@
 ---
 layout: post
-title: "Why No Blog Updates?"
-permalink: /why-no-updates/
 
 by: "Mike"
 

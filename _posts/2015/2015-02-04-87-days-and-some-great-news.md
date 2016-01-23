@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 'Pulse Check: 87 Days and Some Great News!'
-permalink: /87-days-and-some-great-news/
+
 
 by: JorDanee
 

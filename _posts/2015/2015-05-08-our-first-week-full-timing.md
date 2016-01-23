@@ -1,7 +1,5 @@
 ---
 layout: post
-title: "Our First Week Full-timing!"
-permalink: /our-first-week-full-timing/
 
 by: "JorDanee"
 

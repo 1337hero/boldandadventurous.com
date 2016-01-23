@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 29 Days, Here We Go!
-permalink: /29-days-here-we-go/
+
 
 by: Mike
 

@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 40 Days and 20/20 Hindsight
-permalink: /40-days-and-2020-hindsight/
+
 
 by: JorDanee
 

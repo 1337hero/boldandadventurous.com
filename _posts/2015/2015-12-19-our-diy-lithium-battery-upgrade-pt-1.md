@@ -1,7 +1,5 @@
 ---
 layout: post
-title: "Our DIY Lithium Iron Phosphate (LiFePo4) Battery Upgrade PT 1"
-permalink: /our-diy-lithium-battery-upgrade-pt-1/
 
 by: "Mike"
 

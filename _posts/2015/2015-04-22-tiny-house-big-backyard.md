@@ -1,7 +1,5 @@
 ---
 layout: post
-title: Tiny House, Big Backyard
-permalink: /tiny-house-big-backyard/
 
 by: Mike
 

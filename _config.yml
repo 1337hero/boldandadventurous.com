@@ -8,9 +8,9 @@ url:           https://boldandadventurous.com
 markdown:	   kramdown
 
 paginate:      5
+paginate_path: /blog/:num/
 
-permalink:     /:year:month:day/:title/
-permalink:	   pretty
+permalink:     /:title/
 
 gems:
   - jekyll-sitemap
