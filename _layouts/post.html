@@ -28,7 +28,7 @@ layout: compress
                 <div class="hero-title-meta">
                     <h1>{{ page.title }}</h1>
                     <div class="meta">
-                    {{ minutes }} minute read - <time datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time> - {{ tags_content }}
+                     {{ page.by }} <span class="middotDivider"></span> <time datetime="{{ page.date | date: '%B %d, %Y' }}">{{ page.date | date: '%B %d,  %Y' }}</time> <span class="middotDivider"></span> {{ minutes }} minute read
                     </div>
                 </div>
             </header>
@@ -38,33 +38,36 @@ layout: compress
         </article>
     </div>
 
-    <nav class="article-prev-next">
-        {% if page.previous.url %}
-        <a class="prev" href="{{page.previous.url}}" style="background-image:url('{{ page.previous.cover }}');">
-            <div class="prev-next-content">
-                <span>Previous Article</span>
-                <h3>{{page.previous.title}}</h3>
-            </div>
-         </a> 
-        {% endif %} 
-            
-        {% if page.next.url %} 
-        <a class="next" href="{{page.next.url}}" style="background-image:url('{{ page.cover }}');">
-            <div class="prev-next-content">
-                <span>Next Article</span>
-                <h3>{{page.next.title}}</h3>
-            </div>
-        </a> 
-        {% else %}
-        <a class="next" href="{{page.next.url}}" style="background-image:url('{{ page.cover }}');">
-            <div class="prev-next-content">
-                <span>Up Next</span>
-                <h3>{{page.next.title}}</h3>
-            </div>
-        </a> 
-        {% endif %}
-    </nav>
+    <div class="fixed-footer">
+        <nav class="article-prev-next">
+            {% if page.previous.url %}
+            <a class="prev" href="{{page.previous.url}}" style="background-image:url('{{ page.previous.cover }}');">
+                <div class="prev-next-content">
+                    <span>Previous Article</span>
+                    <h3>{{page.previous.title}}</h3>
+                </div>
+             </a> 
+            {% endif %} 
+                
+            {% if page.next.url %} 
+            <a class="next" href="{{page.next.url}}" style="background-image:url('{{ page.cover }}');">
+                <div class="prev-next-content">
+                    <span>Next Article</span>
+                    <h3>{{page.next.title}}</h3>
+                </div>
+            </a> 
+            {% else %}
+            <a class="next" href="{{page.next.url}}" style="background-image:url('{{ page.cover }}');">
+                <div class="prev-next-content">
+                    <span>Up Next</span>
+                    <h3>{{page.next.title}}</h3>
+                </div>
+            </a> 
+            {% endif %}
+        </nav>
 
-    {% include footer.html %}
+        {% include footer.html %}
+    </div>
+    {% include scripts.html %}
 </body>
 </html>
