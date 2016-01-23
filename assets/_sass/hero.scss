@@ -56,3 +56,22 @@
         content: "·";
     }
 }
+
+
+.hero-chevron {
+    display: block;
+    background: url(/assets/hero-chevron.png) no-repeat center bottom;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    bottom: -1px;
+    z-index: 100;
+    line-height: 1;
+    left: 0;
+}
