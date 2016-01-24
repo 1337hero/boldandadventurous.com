@@ -9,16 +9,35 @@ layout: compress
 
         <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
 
+
     </head>
 <body>
 
-    <div class="animated fade-in-down">
+    <div class="home animated fade-in-down">
+    <!-- HERO IMAGE & INTRO -->
+        <header class="hero-image" style="background-image:url('https://s3.amazonaws.com/boldadventure-cdn/default.jpg');">  
+            <div class="hero-title-meta">
+                <h1>Bold & Adventurous</h1>
+                <div class="meta">
+                    Tiny House, Big Backyard! Family of 4 Traveling the USA in our Airstream.
+                </div>
+            </div>
+        </header>
+
+        <div class="who">
+            
+        </div>
+
+        <div class="where">
+            
+        </div>
+
+
         <ul class="entry-list">
         {% for post in paginator.posts %}
             <li>
                 <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
                 <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-                {{ post.excerpt }}
                 <a href="{{ BASE_PATH }}{{ post.url }}" class="btn blue">continue reading</a>
             </li>
             {% endfor %}
@@ -28,6 +47,8 @@ layout: compress
     </div>
 
     {% include footer.html %}
+
+      
 
     {% include scripts.html %}
 

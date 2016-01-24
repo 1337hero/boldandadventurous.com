@@ -24,7 +24,7 @@ layout: compress
     <div class="article animated fade-in-down">
         <article>
             <!-- HERO IMAGE & INTRO -->
-            <header class="hero-image" style="background-image:url('{{ page.cover }}');">  
+            <header class="hero-image" style="background-image:url('https://s3.amazonaws.com/boldadventure-cdn/default.jpg');">  
                 <div class="hero-title-meta">
                     <h1>{{ page.title }}</h1>
                     <div class="meta">
@@ -39,7 +39,7 @@ layout: compress
         </article>
     </div>
 
-    <div class="fixed-footer">
+ 
         <nav class="article-prev-next">
             {% if page.previous.url %}
             <a class="prev" href="{{page.previous.url}}" style="background-image:url('{{ page.previous.cover }}');">
@@ -66,9 +66,12 @@ layout: compress
             </a> 
             {% endif %}
         </nav>
-
+   <div class="fixed-footer">
         {% include footer.html %}
     </div>
+
     {% include scripts.html %}
+    
+    <script src="{{ "/assets/js/scripts.js" | prepend: site.baseurl }}"></script>
 </body>
 </html>
