@@ -5,26 +5,26 @@ layout: compress
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% include head.html %}
+       {% include head.html %}
 
         <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
-
-
-    </head>
+   </head>
 <body>
 
     <div class="home animated fade-in-down">
     <!-- HERO IMAGE & INTRO -->
-        <header class="hero-image" style="background-image:url('https://s3.amazonaws.com/boldadventure-cdn/default.jpg');">  
+        <header class="hero-image" style="background-image:url('/assets/img/homepage-bg.jpg');">  
             <div class="hero-title-meta">
-                <h1>Bold & Adventurous</h1>
+                <h1><span>Bold &</span>Adventurous</h1>
                 <div class="meta">
-                    Tiny House, Big Backyard! Family of 4 Traveling the USA in our Airstream.
+                    Family of 4 living, working & exploring North America in an Airstream.
                 </div>
             </div>
+            <div class="hero-chevron"></div>
         </header>
 
         <div class="who">
+            {% include who.md %}
             
         </div>
 
@@ -32,23 +32,19 @@ layout: compress
             
         </div>
 
-
+        {% for post in site.categories['News'] limit:1 %}
         <ul class="entry-list">
-        {% for post in paginator.posts %}
             <li>
                 <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
                 <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
                 <a href="{{ BASE_PATH }}{{ post.url }}" class="btn blue">continue reading</a>
             </li>
-            {% endfor %}
         </ul>        
-    
-    {% include pagination.html %}
+        {% endfor %}     
+  
     </div>
 
     {% include footer.html %}
-
-      
 
     {% include scripts.html %}
 

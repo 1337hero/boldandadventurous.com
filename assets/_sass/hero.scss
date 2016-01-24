@@ -9,6 +9,10 @@
     align-items: center;
     justify-content: center;
 }
+.home .hero-image {
+   background-position:bottom center; 
+}
+
 .hero-title-meta {
     color: #fff;
     display: block;
@@ -28,6 +32,24 @@
         z-index: 1
     }
 }
+
+.home .hero-title-meta h1 {
+        font-size: 3.2rem;
+        max-width: 100%;
+    @media (min-width: 780px) {
+        font-size: 4rem;
+        max-width: 76%;
+    }
+    span {
+        display: block;
+        font-size: 3rem;
+        @media (min-width: 780px) {
+        font-size: 4rem;
+        }
+    }
+}
+
+
 .meta {
     position: relative;
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -60,7 +82,7 @@
 
 .hero-chevron {
     display: block;
-    background: url(/assets/hero-chevron.png) no-repeat center bottom;
+    background: url("/assets/img/hero-chevron.png") no-repeat center bottom;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
