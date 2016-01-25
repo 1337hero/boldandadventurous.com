@@ -5,8 +5,7 @@ by: "Mike"
 
 cover: https://s3.amazonaws.com/boldadventure-cdn/lffp-pt1.jpg
 
-categories:
-  - DIY, Featured
+categories: DIY, Featured
   
 ---
 

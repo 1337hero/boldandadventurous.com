@@ -44,11 +44,12 @@ layout: compress
         
         <div class="featured">
         <h3>Latest Posts</h3>
-        {% for post in site.categories['featured'] limit:3 %}
+        {% for post in site.categories['Featured'] limit:3 %}
         <ul class="entry-list">
             <li>
                 <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
                 <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+                {{ post.excerpt }}
                 <a href="{{ BASE_PATH }}{{ post.url }}" class="btn blue">continue reading</a>
             </li>
         </ul>        
