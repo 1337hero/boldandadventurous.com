@@ -4,7 +4,7 @@ by: "Mike"
 
 cover: https://s3.amazonaws.com/boldadventure-cdn/quick-updates.jpg
 
-categories: News
+categories: News, Featured
   
 tags: lifestyle
   

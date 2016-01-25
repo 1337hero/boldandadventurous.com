@@ -44,7 +44,7 @@ layout: compress
         
         <div class="featured">
         <h3>Latest Posts</h3>
-        {% for post in site.categories['featured'] limit:1 %}
+        {% for post in site.categories['featured'] limit:3 %}
         <ul class="entry-list">
             <li>
                 <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
