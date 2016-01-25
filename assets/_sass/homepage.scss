@@ -1,8 +1,9 @@
 .entry-list,
 .who,
 .where,
-.why {
-    margin: 1em auto 3em;
+.why,
+.featured {
+    margin: 1em auto;
  
     max-width: 690px;
     margin-left: auto;
@@ -12,6 +13,7 @@
     -webkit-font-smoothing: antialiased;
 
     padding: 0 20px;
+    text-align: center;
     li {
         list-style: none;
         margin-bottom: 1.333em;
@@ -30,36 +32,34 @@
     }
 } 
 
-.pagination {
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
+.home-alt {
+    position: relative;
+    overflow: hidden;
+    background-color: #161616;
 
-    margin: 1em auto 3em;
- 
-    max-width: 690px;
-    margin-left: auto;
-    margin-right: auto;
-
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-
-    padding: 0 20px;
-
-    div {
-       flex-grow: 1;
-        &:nth-child(1) {
-            text-align: left;
-        }
-        &:nth-child(2) {
-            text-align: center;
-        }
-        &:nth-child(3) {
-            text-align: right;
-        }
+    padding: 3em 0;
+    &.two {
+        background-color: #f2f2f2;
+        padding: 0;
     }
 }
+.who {
+    img {
+        width: 250px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 1em auto;
+    }
+    h2{
+        font-size: 2rem;
+        color: #fff;
+        line-height: 1.7em;
+    }
+    p {
+        color: #888;
+    }
+}
+
+
+
