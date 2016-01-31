@@ -3,7 +3,7 @@ layout: post
 
 by: "Mike"
 
-cover: https://s3.amazonaws.com/boldadventure-cdn/lffp-pt1.jpg
+cover: https://d3ubxrwj4q6e59.cloudfront.net/lffp-pt1.jpg
 
 categories: DIY, Featured
   

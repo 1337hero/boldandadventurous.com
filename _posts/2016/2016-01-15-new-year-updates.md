@@ -2,7 +2,7 @@
 layout: post
 by: "Mike"
 
-cover: https://s3.amazonaws.com/boldadventure-cdn/quick-updates.jpg
+cover: https://d3ubxrwj4q6e59.cloudfront.net/quick-updates.jpg
 
 categories: News, Featured
   
