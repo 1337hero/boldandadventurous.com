@@ -20,11 +20,11 @@ layout: compress
         <header class="hero-image" style="background-image:url('/assets/img/homepage-bg.jpg');">  
             <div class="hero-title-meta">
                 <h1><span>Bold &</span>Adventurous</h1>
-                <div class="meta">
-                    Tiny House, Big Backyard!
+                <div class="social">
+                    <a href="http://facebook.com/boldandadventurous" target="_blank"><i class="icon-facebook"></i> <span>Facebook</span></a>              
+                    <a href="http://instagram.com/boldadventure" target="_blank"><i class="icon-instagram"></i> <span>Instagram</span></a>
                 </div>
             </div>
-            <div class="hero-chevron"></div>
         </header>
 
         <div class="home-alt">
@@ -39,22 +39,23 @@ layout: compress
                  -->
 
             </div>
+            <div class="hero-chevron"></div>
         </div>
 
         
         <div class="featured">
         <h3>Latest Posts</h3>
-         <ul class="entry-list">
+        <ul class="entry-list">
         {% for post in paginator.posts %}
             <li>
-                <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
                 <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+                <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
                 {{ post.excerpt }}
                 <a href="{{ BASE_PATH }}{{ post.url }}" class="btn blue">continue reading</a>
             </li>
             {% endfor %}
         </ul>  
-        <a href="">VISIT THE BLOG</a>  
+        <a href="/archive/">VISIT THE BLOG</a>  
         </div>
         
         <div class="home-alt two">

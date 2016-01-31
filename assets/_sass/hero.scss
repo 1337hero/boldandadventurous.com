@@ -98,6 +98,30 @@
     left: 0;
 }
 
-.home .hero-chevron {
-     background: url("/assets/img/home-hero-chevron.png") no-repeat center bottom;   
+.social {
+ position: relative;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -.02rem;
+    z-index: 1;
+    margin-top: 10px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+     &:before {
+        position: absolute;
+        content: '';
+        top: -5px;
+        left: 28%;
+        right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, .5);
+        width: 45%
+    }
+    a {
+        color: #fff;
+        letter-spacing: 1px;
+        &:nth-child(1) {
+            margin-right: 40px;
+         }
+    }
 }
