@@ -9,46 +9,52 @@ categories: DIY
 tags: Composting Toilet
   
 ---
-With all the boondocking we love to do, those trips to the dump were becoming a real drag. My least favorite activity is personal time with the ol' stinky slinky.
 
-So a few months ago we started talking about composting our poo. And last week we decided to purchase a Natures Head composting toilet. What's a composting toilet, and why would we ever do such a thing? 
-
+We are the official owners of a composting toilet. What’s a composting toilet, and why would we ever do such a thing? Simple…
 
 ## Leveled up Boondocking
 
-A dry composting toilet uses zero water, so no more wasting your fresh water with every flush. That also means no need to buy and dump chemicals into your black tank.
+We are not campground people. We love camping out in the wild. Be it a national park, national forest or BLM land. We just love to camp off-grid as much as possible. That means camping without hookups. And for us that meant our stay was limited by the time it took to fill up or black tank.
 
-The system is natural and self-sufficient.  The toilet is like a mini ecosystem that separates the liquids (your pee) and the solids (your poo). This allows the solids to compost into humus.  Returning humus to the soil is no different than adding animal manure to the soil.
+Nothing is a mood killer like having to hitch up and move every 8 days to dump. And my least favorite activity is personal time with the ol’ stinky slinky.
 
-For boondocking this is a huge win. No more flushing fresh water down the drain! If we're staying someplace we enjoy, our time there won't be limited by the need to dump our black tank. And no more spending money on black tank chemicals.
-
-The biggest benefit of all though is to the environment.
+So the wife and I decided to buy a Natures Head composting toilet. 
 
 ## How does it work?
 
-We purchased a Natures Head composting toilet. We chose this brand after some research and hearing comments from others who owned one.
+Our Natures Head composting toilet is what’s known as a urine diverting dry toilet. 
 
-<img src="https://d3ubxrwj4q6e59.cloudfront.net/natures-head-install/toilet-01.jpg"  alt="Natures Head Composting Toilet">
+The system is natural and self-sufficient. The toilet is like a mini ecosystem that separates the liquids (your pee) and the solids (your poo). It uses no water doing this, so no more wasting your fresh water with every flush. The separating of the two allows the solids to compost into humus. And for easy disposal of the liquids.  
+
+We purchased a Natures Head composting toilet. We chose this brand after much research and hearing comments from others who owned one.
+
+<img src="https://d3ubxrwj4q6e59.cloudfront.net/natures-head-install/toilet-01.jpg" alt="Natures Head Composting Toilet">
 
 As stated above, the toilet separates liquids and solids into two separate compartments. 
 
-Pee is diverted via these two holes up front into a 2.2-gallon jug at the front of the unit. You can easily remove this and dump it when it's full.
+Urine is diverted via these two holes up front into a 2.2-gallon jug at the front of the unit. You can easily remove this and dump it when it’s full.
 
-Poo is diverted into the composting bin. When it's time to go #2 you just open the flap, and your "stuff" drops right in. 
+Solids (your poo) is diverted into the composting bin. When it’s time to go you just open the solids trap door, and your “stuff” drops right in. 
 
 <img src="https://d3ubxrwj4q6e59.cloudfront.net/natures-head-install/toilet-07.jpg"  alt="How it works">
 
 On the side, there is an agitator handle. After each use, just give it a couple of turns and it will mix the compost. The bacteria will do the rest of the work.
 
-## Does it smell?
+## Why doesn’t it smell?
 
-NO. 
+Really, it doesn’t smell! The key is separated solids and liquids. By keeping them separate, you don’t create sewage or the smell. 
 
-And we're not lying! The key is separated solids and liquids. They don’t create sewage that way or the odor that emanates from your black tank.  Inside the solids tank is peat moss or coconut COIR, which smells like dirt.  There’s also a fan inside the tank that directs the air, along with any smells, outside while keeping the moisture down inside the solid tank.
+Inside the solids tank is a composting material, such as peat moss or coconut COIR. These both smell like dirt. There’s also a fan inside the tank that directs the air, along with any smells, outside while keeping the moisture down inside the solid tank.
+
+This allows the solids to dry out and then be broken down into humus by safe bacteria inside the container.
+
+You can later dispose of the humus after a certain number of uses in a manner of different ways. Returning humus to the environment is just as safe as using animal manure. 
+
+100% organic made by YOU. ;-)
 
 ## Our installation
 
-This article is not a how-to or instructional but just how we did things.
+** This article is not a how-to or instructional; it’s just how we did things in our Airstream.
 
 This installation should be easy for most RV owners. Since there is no plumbing involved, you only need to worry about an exhaust vent hose and 12v power supply.
 

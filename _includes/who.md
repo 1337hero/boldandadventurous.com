@@ -1,1 +1,0 @@
-#Hi! We're Mike, JorDanee, Alexandra & Cassandra!
