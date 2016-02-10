@@ -19,24 +19,23 @@ layout: compress
     <!-- HERO IMAGE & INTRO -->
         <header class="hero-image" style="background-image:url('https://d3ubxrwj4q6e59.cloudfront.net/homepage-bg.jpg');">  
             <div class="hero-title-meta">
-                <h1><span>Bold &</span>Adventurous</h1>
-                <div class="social">
-                    <a href="http://facebook.com/boldandadventurous" target="_blank"><i class="icon-facebook"></i> <span>Facebook</span></a>              
-                    <a href="http://instagram.com/boldadventure" target="_blank"><i class="icon-instagram"></i> <span>Instagram</span></a>
-                </div>
+                <h1><span>We Are </span>Bold & Adventurous</h1>
             </div>
         </header>
 
         <div class="home-alt">
             <div class="who">
-                <h2>Hi! We're the Key Family! </h2>   
                 <img src="https://d3ubxrwj4q6e59.cloudfront.net/fam-photo.jpg">
 
-                <p>We're a family of 4 living, working & exploring North America in our Airstream. We've been on the road full time sine May 2015. And in that time we've visited 12 states and traveled over 23,882 miles.</p>  
-                <p>We love sharing our stories with you, with plenty of instruction and inspiration along the way for those aspiring to hit the road.</p>
+                <p>We're a family of 4 with a tiny house & big backyard. Living, working & exploring the USA in our Airstream since 2015. Hiking, biking, kayaking, off-roading and enjoying campfires with friends along the way.</p>
 
-                <!-- <a href="/about/" class="btn primary">Learn More</a>
-                 -->
+                <p>We created this blog for you; our trusted friends. To share our stories, adventures and lessons from the road. From the gear we use, to the places we go and the friends we meet along the way. </p>
+
+                <h2>You can also find us here:</h2>
+                <div class="social">
+                    <a href="http://facebook.com/boldandadventurous" target="_blank"><i class="icon-facebook"></i> <span>Facebook</span></a>              
+                    <a href="http://instagram.com/boldadventure" target="_blank"><i class="icon-instagram"></i> <span>Instagram</span></a>
+                </div>
 
             </div>
             <div class="hero-chevron"></div>
@@ -44,7 +43,7 @@ layout: compress
 
         
         <div class="featured">
-        <h3>Latest Posts</h3>
+        <h3>Recent Updates & Posts</h3>
         <ul class="entry-list">
         {% for post in paginator.posts %}
             <li>
@@ -68,7 +67,7 @@ layout: compress
           <script>
             L.mapbox.accessToken = 'pk.eyJ1IjoibWszeSIsImEiOiJjaWpydzRraTAwZzY5dTJrb2RseTBvNjg2In0.0u6byOzGp6VLJo9I4JFlKw';
             var map = L.mapbox.map('map', 'mk3y.opcm2nh6')
-                .setView([32.8368, -114.812], 8);
+                .setView([33.2801, -112.6418], 8);
 
             L.mapbox.featureLayer({
 
@@ -77,8 +76,8 @@ layout: compress
                     type: 'Point',
 
                     coordinates: [
-                      32.8368, 
-                      -114.812
+                      33.2801, 
+                      -112.6418
                     ]
                 },
                 properties: {
