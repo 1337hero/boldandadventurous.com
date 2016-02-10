@@ -10,11 +10,11 @@ categories: DIY, Featured
 ---
 
 
-We awoke one morning to find ourselves cold. I stumbled to the galley and took a look at the IPN Remote display. The voltage readout was 8.9 volts. Begrudgingly I put on my pants, coat and shoes to head outside and fire up the generator. My least favorite activity when it’s 42 outside with 15mph wind gusts.
+We awoke one morning to find ourselves freezing cold. I stumbled to the galley and took a look at the IPN Remote display. The voltage readout was 8.9 volts. Begrudgingly I put on my pants, coat and shoes to head outside and fire up the generator. My least favorite activity when it’s 42 outside with 15mph wind gusts.
 
 <img src="https://scontent-lax3-1.cdninstagram.com/hphotos-xpt1/t51.2885-15/e35/11909147_1666563770266568_2071204063_n.jpg" alt="Low Battery">
 
-All summer long our batteries and solar have served us well. But as the summer turned to fall and the fall to winter, we started having problems. Running the furnace at night would result in depleting our batteries. 
+All summer long our batteries and solar have served us well. But as the summer turned to fall and the fall to winter, we started having problems. Running the furnace at night would result in depleting our batteries. Out batteries just were going bad, and going bad fast.
 
 We needed to upgrade our battery bank.
 
@@ -120,9 +120,30 @@ The GBS chemistry is LiFeMnPO4 in these cells. They are the first cells to have 
 **Availability**
 There are several US distributors for this brand. One happened to be close to my location. I purchased mine from Starlight Solar Power Systems in Yuma, AZ over Thanksgiving.
 
-## Putting it all together
+## A word on costs
 
-To build a complete system I would need a bank of lithium batteries and a battery management system.
+I keep hearing from others that they would like to purchase lithium batteries, but they are just too expensive. So they want to wait and see if the prices come down.
+ 
+I'm here to tell you that lithium batteries are actually at a reasonable price. 
 
-Hopefully this post was informative. In my next post, I’ll be detailing the installation of the battery bank in our Airstream.
+Let's take AMSolar's 400 amp hour kit for example. It's $3,299.00 and you think: "That's a lot of money compared to me buying some Trojans." 
+
+But you're looking at in the wrong manner.
+
+You are not just buying four batteries that you are going to slap in your RV.
+
+In order to use the lithiums properly, you are also buying the Battery Management System, Sense boards and a few other pieces to have safe usable system. 
+
+When I priced the Sinopoly cells from a supplier in Canada they were priced at $153.00 US per 3.2V cell. And you need 16 of them to make a 400aH bank so that's $2448.00 - then you have to factor in the cost of the BMS (this ranges from $200 to $500) and sense boards (these range from $40 to $80), and solenoid ($150), wires, switches, fuses.... All of that adds up in cost.
+
+
+When you factor that into the pricing, then the price becomes understandable. If you just priced the batteries alone, the price difference is very similar to the price difference between Lead Acid and AGM batteries.
+
+I don't think the prices are coming down. Do not expect them to be cheaper in the near future either.
+
+
+## In Closing...
+
+Hopefully you have a good idea about Lithiums, and why I chose them. In Part 2 I'm going to detail all the supplies I bought and how I laid out my system and the install process.
+
 
