@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DIY Lithium Battery Upgrade PT 2"
+title: "Our DIY Lithium Battery Upgrade PT 2"
 permalink: /our-diy-lithium-battery-upgrade-pt-2/
 
 by: "Mike"
