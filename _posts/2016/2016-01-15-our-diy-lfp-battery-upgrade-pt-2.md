@@ -46,7 +46,7 @@ The three phases of my plan are as follows:
 
 These are the plans for my system that I drew up to give you an idea how how the whole system is wired.
 
-<figure><img src="https://d3ubxrwj4q6e59.cloudfront.net/lfp-project/Airstream-Lithium-Setup.jpg" class="size-full"></figure>
+<img src="https://d3ubxrwj4q6e59.cloudfront.net/lfp-project/Airstream-Lithium-Setup.jpg" alt="System Diagram">
 
 ## Getting the parts
 

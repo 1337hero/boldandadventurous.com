@@ -8,15 +8,15 @@ layout: compress
        {% include head.html %}
 
          <!-- <link rel="stylesheet" href="https://d3ubxrwj4q6e59.cloudfront.net/styles.css"> -->
-        
-        <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
 
         <style type="text/css">
             {% capture include_to_scssify %}
-              {% include critical.scss %}
+              {% include critical_homepage.scss %}
             {% endcapture %}
             {{ include_to_scssify | scssify }}
           </style>
+        
+                <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
 
    </head>
 <body>
@@ -45,12 +45,6 @@ layout: compress
 
                 <p>We created this blog for you; our trusted friends. To share our stories, adventures and lessons from the road. From the gear we use, to the places we go and the friends we meet along the way. </p>
 
-                <!-- <h2>You can also find us here:</h2>
-                <div class="social">
-                    <a href="https://www.facebook.com/boldadventure/" target="_blank"><i class="icon-facebook"></i> <span>Facebook</span></a>              
-                    <a href="http://instagram.com/boldadventure" target="_blank"><i class="icon-instagram"></i> <span>Instagram</span></a>
-                </div> -->
-
             </div>
             <div class="hero-chevron"></div>
         </div>
@@ -71,6 +65,11 @@ layout: compress
             <a href="/archive/">VISIT THE BLOG</a>  
         </div>
             
+    </div>
+
+    <div class="instagram-footer">
+        <h4 class="instagram-title">Follow @ Instagram</h4>
+        <ul id="instafeed" class="instagram-pics"></ul>
     </div>
 
     {% include footer.html %}
