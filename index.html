@@ -7,19 +7,27 @@ layout: compress
     <head>
        {% include head.html %}
 
-         <link rel="stylesheet" href="https://d3ubxrwj4q6e59.cloudfront.net/styles.css">
+         <!-- <link rel="stylesheet" href="https://d3ubxrwj4q6e59.cloudfront.net/styles.css"> -->
+        
+        <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
 
         <script src='https://api.mapbox.com/mapbox.js/v2.2.4/mapbox.js'></script>
         <link href='https://api.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
 
    </head>
 <body>
-
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="arrowBroken" viewBox="0 0 35 10">
+  <polygon points="35,5 25,0 25,4 20,4 20,6 25,6 25,10 "/>
+  <rect x="10" y="4" width="5" height="2"/>
+  <rect y="4" width="5" height="2"/>
+  </symbol>
+</svg>
     <div class="home animated fade-in-down">
     <!-- HERO IMAGE & INTRO -->
         <header class="hero-image" style="background-image:url('https://d3ubxrwj4q6e59.cloudfront.net/homepage-bg.jpg');">  
             <div class="hero-title-meta">
-                <h1><span>We Are </span>Bold & Adventurous</h1>
+                <h1>Bold & Adventurous</h1>
             </div>
         </header>
 
@@ -43,14 +51,14 @@ layout: compress
 
         
         <div class="featured">
-        <h3>Recent Updates & Posts</h3>
+        <h3>RECENT ARTICLES</h3>
         <ul class="entry-list">
         {% for post in paginator.posts %}
             <li>
                 <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
                 <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
                 {{ post.excerpt }}
-                <a href="{{ BASE_PATH }}{{ post.url }}" class="btn blue">continue reading</a>
+                <a href="{{ BASE_PATH }}{{ post.url }}" class="read-more">continue reading <svg class="shape-icon shape-arrow--broken"><use xlink:href="#arrowBroken"></use></svg></a>
             </li>
             {% endfor %}
         </ul>  
