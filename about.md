@@ -1,40 +1,42 @@
 ---
 layout: page
-title: Bold & Adventurous is a way of looking at life. It's about getting outside our comfort zone, taking action and achieving our dreams.
+title: About Us - We're Bold and Adventurous!
 ---
 
 
-<p style="text-align: center;">
-  <strong>We&#8217;re two young rebels raising a family who grew tired of the rat race and traded in the American Dream<br /> </strong><strong>of </strong><b>consumerism and living for the weekend for a simpler more fulfilled life full of adventure and new experiences.</b>
-</p>
+Hi, we are the Key family.  We are a family of four living, working & exploring the USA in our Airstream. 
 
-<p style="text-align: center;">
-  We&#8217;re pushing ourselves to get outside our comfort zone, taking action and achieving our dreams.<br /> We&#8217;re living life boldly and confidently in pursuit of our dreams, adventure, and personal growth<br /> &#8212; striving to build a great life and become the best possible versions of ourselves.
-</p>
+We grew tired of the rat race and living for the weekends. So we took a bold step in a new direction with our lives. We traded in the American Dream for a simpler more fulfilled life. One full of adventure, new places, new experiences and new friendships.
 
-<h2 style="text-align: center;">
-  THE BLOG
-</h2>
+And we haven't looked back. 
 
-<p style="text-align: center;">
-  We created this blog to motivate ourselves to step outside our comfort zone and achieve our dreams. We believe we can achieve our dreams by being intentional, taking action, and overcoming negative beliefs with positive ones.
-</p>
+## THE BLOG
 
-<p style="text-align: center;">
-  We value strength, courage, determination, intentionality, positivity and <strong>boldness</strong> above all else.
-</p>
+We created this blog for you; our trusted friends.  To share our stories, adventures, and lessons from the road. From the gear we use to the places we go and the friends, we meet along the way. 
 
-<p style="text-align: center;">
-  We don&#8217;t ask what the meaning of life is &#8212; we just define the meaning of life through our choices and actions. We believe in creating our own destiny.
-</p>
+If you're considering a bold new direction in life; and stepping outside your comfort zone, we want you to see you can live your dreams too.
 
-<p style="text-align: center;">
-  On this blog, you&#8217;ll find us discussing topics relating to our lifestyle and how we accomplish things. Along the way we&#8217;ll share our stories of adventure, new friends, our failures and our successes.
-</p>
+Our hope is that by sharing our knowledge and experience you can benefit.
 
-<p style="text-align: center;">
-  We hope that we can encourage and inspire others.
-</p>
+## US
+
+We're minimalists, eat paleo and are unashamed sci-fi nerds. If you want to play Scrabble, Uno or Settlers of Catan we are *game*. 
+
+But our hearts most come alive outside. Whether it's hiking, mountain biking, kayaking or off-roading in Moab. We are on the look out for adventure and exciting places to visit and things to do. 
 
 
+###Mike
 
+The patriarch of this family. Nomad, Adventurer, Polymath, Autodidact.  Mike enjoys reading old books, eating paleo, drinking whiskey, lifting heavy things, working with his hands and living dangerously. 
+
+###JorDanée
+
+Wife, Mom, and the glue that holds us all together, JorDanée loves living in tiny spaces, exploring big backyards, and encouraging our two girls to grow and explore.
+
+###Alexandra
+
+Alex for short; is a toddler built for tiny house living. She really enjoys life on the road. Her favorite past times are jumping in mud puddles, climbing everything, playing in the water and collecting rocks.
+
+###Cassandra 
+
+Cassie for short; is the youngest member of our tiny traveling clan. She enjoys waking up with the sun and pulling her sister's hair.
