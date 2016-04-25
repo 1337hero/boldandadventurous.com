@@ -10,7 +10,7 @@ tags: Composting Toilet
   
 ---
 
-We are the official owners of a composting toilet. What’s a composting toilet, and why would we ever do such a thing? Simple…
+We are the official owners of a [Natures Head Composting Toilet](http://amzn.to/1NtC5ES). What’s a composting toilet, and why would we ever do such a thing? Simple…
 
 ## Leveled up Boondocking
 
@@ -22,11 +22,11 @@ So the wife and I decided to buy a Natures Head composting toilet.
 
 ## How does it work?
 
-Our Natures Head composting toilet is what’s known as a urine diverting dry toilet. 
+Our composting toilet is what’s known as a urine diverting dry toilet. 
 
 The system is natural and self-sufficient. The toilet is like a mini ecosystem that separates the liquids (your pee) and the solids (your poo). It uses no water doing this, so no more wasting your fresh water with every flush. The separating of the two allows the solids to compost into humus. And for easy disposal of the liquids.  
 
-We purchased a Natures Head composting toilet. We chose this brand after much research and hearing comments from others who owned one.
+We purchased a  [Natures Head Composting Toilet](http://amzn.to/1NtC5ES). We chose this brand after much research and hearing comments from others who owned one.
 
 <img src="https://d3ubxrwj4q6e59.cloudfront.net/natures-head-install/toilet-01.jpg" alt="Natures Head Composting Toilet">
 
@@ -92,9 +92,9 @@ After that, I re-installed our false wall covering the black tank vent.
 
 <img src="https://d3ubxrwj4q6e59.cloudfront.net/natures-head-install/natures-head-composting-toilet.jpg" alt="Natures Head Composting Toilet in Airstream">
 
-The last thing to do was prep our composting medium. You can use either peat moss or coconut COIR. We chose Coconut COIR as it's sustainable and environmentally friendly.
+The last thing to do was prep our composting medium. We use [General Hydroponics CocoTek Bale Coco](http://amzn.to/1SnBNQc) as our composting material as it's sustainable and environmentally friendly.
 
-JorDanee had the pleasure of prepping the Coconut COIR. It comes in a big dehydrated bag. So we needed to break some of it off and rehydrate it for our toilet. 
+JorDanee had the pleasure of prepping the [CocoTek Coco](http://amzn.to/1SnBNQc). It comes in a big dehydrated bag. So we needed to break some of it off and rehydrate it for our toilet. 
 
 <img src="https://d3ubxrwj4q6e59.cloudfront.net/natures-head-install/toilet-08.jpg"  alt="Coco Coir">
 
