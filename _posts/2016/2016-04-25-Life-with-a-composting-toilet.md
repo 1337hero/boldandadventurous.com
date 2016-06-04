@@ -30,6 +30,8 @@ How did it overflow? We forgot to empty it before going to bed.
 
 Second, no getting around this one. There is a strong odor when dumping the pee. A two-gallon jug of urine smells like unyielding ammonia. And when you empty said container, you are going to smell it. No matter what. So make sure you are dumping it far far away.
 
+**UPDATE**: Our Friends [MeanFor Adventure](https://www.instagram.com/meantforadventure) gave us a great tip that works! A few tablespoons of sugar in the empty container and it removes the smell when dumping. It worked for us. We've only tried it a few times, so we'll keep experimenting. I was a little skeptical at first. But so far, no strong odors like previously. 
+
 ### Q.) HOW OFTEN DO YOU DUMP IT?
 The rule of thumb for us has been a day and a half with the urine jug. And two or two and half weeks with the composting bin. With our black tank, we used to be going 10 to 14 days at a time.
 
