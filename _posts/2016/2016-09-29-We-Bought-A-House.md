@@ -3,9 +3,9 @@ layout: post
 
 by: "Mike"
 
-cover: https://d3ubxrwj4q6e59.cloudfront.net/lffp-pt1.jpg
+cover: https://scontent.xx.fbcdn.net/t31.0-8/14435303_1683400525310743_8997157702489952768_o.jpg
 
-categories: DIY, Featured
+categories: Featured
   
 ---
 
