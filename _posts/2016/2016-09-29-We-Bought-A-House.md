@@ -1,3 +1,14 @@
+---
+layout: post
+
+by: "Mike"
+
+cover: https://d3ubxrwj4q6e59.cloudfront.net/lffp-pt1.jpg
+
+categories: DIY, Featured
+  
+---
+
 Yes, you heard right. But it's not quite what you'd think.
 
 We've put a pause on our full-time travels for one important reason, and that is our oldest daughter Alexandra. We began to notice a few months ago that she wasn't where she needed to be with her speech development. So, we made the decision to seek out an early intervention with a speech therapist. There is no way around it, but we can't travel while Alex gets the attention she needs. While some might be disappointed, there is nothing more important to us than Alex's well being.
