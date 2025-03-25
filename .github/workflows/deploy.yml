@@ -26,11 +26,14 @@ jobs:
         bun-version: latest
 
     # Step 3: Cache Bun dependencies to speed up future builds
+    # Note: Using the correct Bun cache path for GitHub Actions
     - name: Cache dependencies
       uses: actions/cache@v4
       with:
-        path: ~/.bun/install/cache
-        key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lockb') }}
+        path: |
+          ~/.bun/install/cache
+          node_modules
+        key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lock') }}
         restore-keys: |
           ${{ runner.os }}-bun-
 
@@ -38,29 +41,41 @@ jobs:
     - name: Install App dependencies
       run: bun install
 
-      # Step 5: Generate a cache key based on the content of our source files
+    # Step 5: Generate a cache key based on the content of our source files
     - name: Generate cache key
       id: cache-key
       run: |
-        echo "key=${{ runner.os }}-build-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx', '**/*.css', '**/*.html', 'bun.lockb') }}-${{ env.NODE_ENV }}" >> $GITHUB_OUTPUT
+        echo "key=${{ runner.os }}-build-${{ hashFiles('**/*.js', '**/*.scss', '**/*.md', '**/*.liquid', '**/*.json', 'bun.lock') }}" >> $GITHUB_OUTPUT
 
     # Step 6: Try to restore cached build output
     - name: Cache build
       id: build-cache
       uses: actions/cache@v4
       with:
-        path: dist
+        path: _site
         key: ${{ steps.cache-key.outputs.key }}
     
     # Step 7: Build the application
     # Note: This step will run even if the cache is restored, ensuring we always have the latest build
     - name: Build the site
       run: bun run build
+    
+    # Step 8: Check for symlinks and hard links in the build output
+    - name: Check for symlinks and hard links
+      run: |
+        echo "Checking for symlinks and hard links in _site directory..."
+        find _site -type l -o -type f -links +1 || echo "No symlinks or hard links found."
+    
+    # Step 9: Check the size of the build output
+    - name: Check build output size
+      run: |
+        echo "Checking size of _site directory..."
+        du -sh _site
         
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
-        name: gh-pages
+        name: github-pages  # Name of the artifact
         path: _site  # Eleventy's output directory
 
   # Deploy the built application to Github Pages
@@ -77,3 +92,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages
