@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+<a href="/" class="close">&times;</a>
+
+<div class="article animated fade-in-down">
+    <article>
+        <div class="article-content">
+            <h1>{{ title }}</h1>
+            {{ content }}
+            
+            <ul class="archive-list">
+            {% for post in collections.posts reversed %}
+                <li>
+                    <span class="post-date">{{ post.date | dateFormat: "MMM d, yyyy" }}</span>
+                    <a href="{{ post.url }}">{{ post.data.title }}</a>
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+    </article>
+</div>

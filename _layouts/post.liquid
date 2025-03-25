@@ -1,0 +1,85 @@
+---
+layout: base
+---
+
+{% assign minutes = content | number_of_words | divided_by: 150 %}
+{% if minutes == 0 %}
+{% assign minutes = 1 %}
+{% endif %}
+
+<a href="/" class="close">&times;</a>
+
+<progress value="0"></progress>
+
+<div class="article animated fade-in-down">
+    <article>
+        <!-- HERO IMAGE & INTRO -->
+        <header class="hero-image" style="background-image:url('{{ cover }}')">  
+            <div class="hero-title-meta">
+                <h1>{{ title }}</h1>
+                <div class="meta">
+                 {{ by }} <span class="middotDivider"></span> <time datetime="{{ date | date: '%B %d, %Y' }}">{{ date | dateFormat }}</time> <span class="middotDivider"></span> {{ minutes }} minute read
+                </div>
+            </div>
+            <div class="hero-chevron"></div>
+        </header>
+        <div class="article-content">
+            {{ content }}
+        </div>
+    </article>
+</div>
+
+<nav class="article-prev-next">
+    {% if collections.posts %}
+        {% assign currentPostIndex = 0 %}
+        {% for post in collections.posts %}
+            {% if post.url == page.url %}
+                {% assign currentPostIndex = forloop.index0 %}
+            {% endif %}
+        {% endfor %}
+
+        {% assign previousPost = collections.posts[currentPostIndex | plus: 1] %}
+        {% assign nextPost = collections.posts[currentPostIndex | minus: 1] %}
+
+        {% if previousPost %}
+        <a class="prev" href="{{ previousPost.url }}" style="background-image:url('{{ previousPost.data.cover }}');">
+            <div class="prev-next-content">
+                <span>Previous Article</span>
+                <h3>{{ previousPost.data.title }}</h3>
+            </div>
+         </a> 
+        {% endif %} 
+            
+        {% if nextPost %} 
+        <a class="next" href="{{ nextPost.url }}" style="background-image:url('{{ cover }}');">
+            <div class="prev-next-content">
+                <span>Next Article</span>
+                <h3>{{ nextPost.data.title }}</h3>
+            </div>
+        </a> 
+        {% else %}
+        <a class="next" href="{{ nextPost.url }}" style="background-image:url('{{ cover }}');">
+            <div class="prev-next-content">
+                <span>Up Next</span>
+                <h3>{{ nextPost.data.title }}</h3>
+            </div>
+        </a> 
+        {% endif %}
+    {% endif %}
+</nav>
+
+<div class="fixed-footer">
+    <footer>
+        <div class="footer-menu">
+            <ul class="menu">
+                <li><a href="/about/">About</a></li>
+                <li><a href="/archive/">Archives</a></li>
+                <li><a href="/disclosure-statement/">Disclosure Statement</a></li>
+                <li><a href="mailto:us@boldandadventurous.com">Contact</a></li>
+            </ul>
+        </div>           
+        <div class="footer-copyright">
+            <p class="copyright">All content &copy; 2009–{{ "now" | date: "%Y" }} MK3Y, LLC and cannot be used, reproduced or manipulated without express consent.</p>
+        </div>
+    </footer>
+</div>

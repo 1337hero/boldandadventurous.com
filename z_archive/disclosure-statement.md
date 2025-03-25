@@ -5,7 +5,7 @@ title: Disclosure Statement
 
 ## DISCLOSURE STATEMENT
 
-As you've probably noticed, we link to various products and/or services in our articles. When you make a purchase though one of these links, we receive a small commission to help keep this site going. This doesn't cost you anything, it's just a way for the various sites to thank us for sending them traffic.
+As you’ve probably noticed, we link to various products and/or services in our articles. When you make a purchase though one of these links, we receive a small commission to help keep this site going. This doesn’t cost you anything, it’s just a way for the various sites to thank us for sending them traffic.
 
 Thanks for your support!
 

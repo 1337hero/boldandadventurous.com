@@ -1,0 +1,56 @@
+---
+layout: base
+---
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="arrowBroken" viewBox="0 0 35 10">
+  <polygon points="35,5 25,0 25,4 20,4 20,6 25,6 25,10 "/>
+  <rect x="10" y="4" width="5" height="2"/>
+  <rect y="4" width="5" height="2"/>
+  </symbol>
+</svg>
+
+<div class="home animated fade-in-down">
+<!-- HERO IMAGE & INTRO -->
+    <header class="hero-image" style="background-image:url('/assets/img/homepage-bg.jpg');">  
+        <div class="hero-title-meta">
+            <h1>Bold & Adventurous</h1>
+        </div>
+    </header>
+
+    <div class="home-alt">
+        <div class="who">
+            <img src="/assets/img/fam-photo.jpg">
+
+            <p>We're a family of 4 with a tiny house & big backyard. Living, working & exploring the USA in our Airstream. Hiking, biking, kayaking, off-roading and enjoying campfires with friends along the way.</p>
+
+            <p>We created this blog for you; our trusted friends. To share our stories, adventures and lessons from the road. From the gear we use, to the places we go and the friends we meet along the way. </p>
+
+            <p></p>
+
+        </div>
+        <div class="hero-chevron"></div>
+    </div>
+    
+    <div class="featured">
+        <h2><span>OUR RECENT POSTS<span></h2>
+        <ul class="entry-list">
+        {% for post in collections.posts | limit: 3 %}
+            <li>
+                <h3>
+                    <a href="{{ post.url }}">{{ post.data.title }}</a>
+                </h3>
+                {{ post.templateContent | split: '<!--more-->' | first }}
+                <a href="{{ post.url }}" class="read-more">continue reading <svg class="shape-icon shape-arrow--broken"><use xlink:href="#arrowBroken"></use></svg></a>
+            </li>
+        {% endfor %}
+        </ul>  
+        <a href="/archive/">VISIT THE BLOG</a>  
+    </div>
+        
+</div>
+
+<div class="instagram-footer">
+    <h4 class="instagram-title">Follow @ Instagram</h4>
+    <ul id="instafeed" class="instagram-pics"></ul>
+</div>

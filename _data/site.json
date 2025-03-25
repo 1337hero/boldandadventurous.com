@@ -1,0 +1,16 @@
+{
+  "title": "Bold&Adventurous",
+  "tagline": "Bold & Adventurous",
+  "description": "Tiny house, big backyard! We're a family of 4 traveling the USA in our Airstream.",
+  "email": "mike@mk3y.com",
+  "baseurl": "",
+  "url": "https://boldandadventurous.com",
+  "paginate": 3,
+  "paginate_path": "/blog/:num/",
+  "permalink": "/:title/",
+  "author": {
+    "name": "Mike Key"
+  },
+  "buildTime": "{% buildTime %}",
+  "environment": "{{ eleventy.env.mode }}"
+}

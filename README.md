@@ -1,9 +1,35 @@
-## Bold&Adventurous
+# Bold&Adventurous
 
-This is a work in progress. Moving a WordPress blog to Jekyll with a focus on mobile performance while also serving up large images.
+This is the Eleventy version of the Bold&Adventurous blog, migrated from Jekyll.
 
-Have not yet determined a deployment method. S3, Github Pages, Linode or Digital Ocean. Still undecided.
+## About
 
-This ReadMe will be updated as progress on this site progresses.
+Bold&Adventurous is a blog about a family of 4 traveling the USA in their Airstream. The site focuses on mobile performance while serving up large images.
 
-Clone at your own risk.
+## Development
+
+To run the development server:
+
+```bash
+npm start
+```
+
+To build the site for production:
+
+```bash
+npm run build
+```
+
+## Structure
+
+- `_data/` - Site data
+- `_includes/` - Reusable components
+- `_layouts/` - Page layouts
+- `posts/` - Blog posts organized by year
+- `assets/` - Static assets (CSS, JS, images, fonts)
+
+## Technologies
+
+- [Eleventy](https://www.11ty.dev/) - Static site generator
+- [Liquid](https://liquidjs.com/) - Templating language
+- [SCSS](https://sass-lang.com/) - CSS preprocessor
