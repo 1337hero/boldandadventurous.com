@@ -14,11 +14,13 @@ layout: base
 <div class="article animated fade-in-down">
     <article>
         <!-- HERO IMAGE & INTRO -->
-        <header class="hero-image" style="background-image:url('{{ cover }}')">  
+        <header class="hero-image" style="background-image:url(/assets/img/default-cover.jpg)">  
             <div class="hero-title-meta">
                 <h1>{{ title }}</h1>
                 <div class="meta">
-                 {{ by }} <span class="middotDivider"></span> <time datetime="{{ date | date: '%B %d, %Y' }}">{{ date | dateFormat }}</time> <span class="middotDivider"></span> {{ minutes }} minute read
+                 By:{{ by }} <span class="middotDivider"></span> Published: <time datetime="{{ date | date: '%B %d, %Y' }}">{{ date | dateFormat }}</time> 
+                 {% if last_updated %}<span class="middotDivider"></span> Updated: <time datetime="{{ last_updated | date: '%B %d, %Y' }}">{{ last_updated | dateFormat }}</time>{% endif %}
+                 <span class="middotDivider"></span> {{ minutes }} minute read
                 </div>
             </div>
             <div class="hero-chevron"></div>

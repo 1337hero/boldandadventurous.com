@@ -95,14 +95,18 @@ module.exports = function(eleventyConfig) {
     }
   });
   
-  // Create a collection for all posts
+  // Create a collection for all posts, sorted by date descending (newest first)
   eleventyConfig.addCollection("posts", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("posts/**/*.md");
+    return collectionApi.getFilteredByGlob("posts/**/*.md").sort((a, b) => {
+      return new Date(b.data.date) - new Date(a.data.date);
+    });
   });
   
-  // Create a collection for paginated posts
+  // Create a collection for paginated posts, sorted by date descending
   eleventyConfig.addCollection("paginatedPosts", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("posts/**/*.md");
+    return collectionApi.getFilteredByGlob("posts/**/*.md").sort((a, b) => {
+      return new Date(b.data.date) - new Date(a.data.date);
+    });
   });
   
   // Return the configuration object
