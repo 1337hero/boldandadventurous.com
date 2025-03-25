@@ -1,32 +1,69 @@
-name: Build and Deploy
+name: BoldAdventure Deployment Script
 
 on:
   push:
-    branches: [ main ]
+    branches: 
+      - main
 
 jobs:
+  # Build the Website
   build:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-          
-      - name: Install dependencies
-        run: npm ci
-        
-      - name: Build site
-        run: npm run build
-        
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: site-artifact
-          path: _site  # Eleventy's output directory
 
+    # Specifying required permissions for the job
+    permissions:
+      deployments: write  # Needed to create deployments
+      contents: read      # Needed to checkout the repository
+
+    steps:
+    # Step 1: Checkout the repository code
+    - uses: actions/checkout@v4
+      
+    # Step 2: Setup Bun, our JavaScript runtime and package manager
+    - name: Setup Bun
+      uses: oven-sh/setup-bun@v1
+      with:
+        bun-version: latest
+
+    # Step 3: Cache Bun dependencies to speed up future builds
+    - name: Cache dependencies
+      uses: actions/cache@v4
+      with:
+        path: ~/.bun/install/cache
+        key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lockb') }}
+        restore-keys: |
+          ${{ runner.os }}-bun-
+
+    # Step 4: Install project dependencies
+    - name: Install App dependencies
+      run: bun install
+
+      # Step 5: Generate a cache key based on the content of our source files
+    - name: Generate cache key
+      id: cache-key
+      run: |
+        echo "key=${{ runner.os }}-build-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx', '**/*.css', '**/*.html', 'bun.lockb') }}-${{ env.NODE_ENV }}" >> $GITHUB_OUTPUT
+
+    # Step 6: Try to restore cached build output
+    - name: Cache build
+      id: build-cache
+      uses: actions/cache@v4
+      with:
+        path: dist
+        key: ${{ steps.cache-key.outputs.key }}
+    
+    # Step 7: Build the application
+    # Note: This step will run even if the cache is restored, ensuring we always have the latest build
+    - name: Build the site
+      run: bun run build
+        
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: gh-pages
+        path: _site  # Eleventy's output directory
+
+  # Deploy the built application to Github Pages
   deploy:
     needs: build
     permissions:
@@ -39,4 +76,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
