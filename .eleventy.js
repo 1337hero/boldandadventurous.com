@@ -33,11 +33,37 @@ module.exports = function(eleventyConfig) {
     return content;
   });
 
+  // Ignore Sass partials
+  eleventyConfig.ignores.add("src/assets/styles/_*.scss");
+
+  // Process main Sass file
+  eleventyConfig.addPassthroughCopy({
+    "src/assets/styles/styles.css": "assets/styles/styles.css"
+  });
+
+  // Custom Sass processing
+  eleventyConfig.on("beforeBuild", () => {
+    const result = sass.compile("src/assets/styles/styles.scss", {
+      style: "compressed",
+      loadPaths: ["src/assets/styles"]
+    });
+    
+    // Ensure the directory exists
+    if (!fs.existsSync("src/assets/styles")) {
+      fs.mkdirSync("src/assets/styles", { recursive: true });
+    }
+    
+    // Write the compiled CSS
+    fs.writeFileSync("src/assets/styles/styles.css", result.css);
+  });
+
+  // Watch Sass files for changes
+  eleventyConfig.addWatchTarget("./src/assets/styles/");
+
   // Copy assets that don't need processing
-  eleventyConfig.addPassthroughCopy("assets/img");
-  eleventyConfig.addPassthroughCopy("assets/fonts");
-  eleventyConfig.addPassthroughCopy("assets/js");
-  eleventyConfig.addPassthroughCopy("assets/css");
+  eleventyConfig.addPassthroughCopy({"src/assets/img": "assets/img"});
+  eleventyConfig.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
+  eleventyConfig.addPassthroughCopy({"src/assets/js": "assets/js"});
   eleventyConfig.addPassthroughCopy("CNAME");
 
   // Date formatting filter (similar to Jekyll's date filter)
@@ -84,9 +110,10 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: ".",
       output: "_site",
-      includes: "_includes",
-      layouts: "_layouts",
-      data: "_data"
+      includes: "src/_includes",
+      layouts: "src/_layouts",
+      data: "src/_data",
+      pages: "src/pages"
     },
     templateFormats: ["md", "html", "liquid"],
     markdownTemplateEngine: "liquid",
