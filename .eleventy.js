@@ -7,6 +7,8 @@ const fs = require("fs");
 const htmlmin = require("html-minifier");
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.ignores.add("z_archive/**");
+
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
   
