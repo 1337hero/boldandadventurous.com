@@ -1,8 +1,9 @@
 ---
 title: A Western RoadTrip Part 2
-author: JorDanee
 layout: post
-permalink: /a-western-roadtrip-part-2/
+date: 2012-08-20
+by: JorDanee
+cover: http://hosting.mikekey.com/roadtrip/day03_04/02.jpg
 categories:
   - Adventures
 ---

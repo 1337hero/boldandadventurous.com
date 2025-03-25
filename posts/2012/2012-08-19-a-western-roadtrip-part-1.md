@@ -1,8 +1,9 @@
 ---
 title: A Western RoadTrip Part 1
-author: JorDanee
 layout: post
-permalink: /a-western-roadtrip-part-1/
+date: 2012-08-19
+by: JorDanee
+cover: http://hosting.mikekey.com/roadtrip/day01/day_1_01.jpg
 categories:
   - Adventures
 ---
