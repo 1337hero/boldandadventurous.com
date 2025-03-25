@@ -5,28 +5,39 @@ on:
     branches: 
       - main
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   # Build the Website
   build:
     runs-on: ubuntu-latest
-
-    # Specifying required permissions for the job
-    permissions:
-      deployments: write  # Needed to create deployments
-      contents: read      # Needed to checkout the repository
-
+    
     steps:
     # Step 1: Checkout the repository code
     - uses: actions/checkout@v4
+    
+    # Step 2: Setup Pages
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v4
       
-    # Step 2: Setup Bun, our JavaScript runtime and package manager
+    # Step 3: Setup Bun, our JavaScript runtime and package manager
     - name: Setup Bun
       uses: oven-sh/setup-bun@v1
       with:
         bun-version: latest
 
-    # Step 3: Cache Bun dependencies to speed up future builds
-    # Note: Using the correct Bun cache path for GitHub Actions
+    # Step 4: Cache Bun dependencies to speed up future builds
     - name: Cache dependencies
       uses: actions/cache@v4
       with:
@@ -37,17 +48,17 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-bun-
 
-    # Step 4: Install project dependencies
+    # Step 5: Install project dependencies
     - name: Install App dependencies
       run: bun install
 
-    # Step 5: Generate a cache key based on the content of our source files
+    # Step 6: Generate a cache key based on the content of our source files
     - name: Generate cache key
       id: cache-key
       run: |
         echo "key=${{ runner.os }}-build-${{ hashFiles('**/*.js', '**/*.scss', '**/*.md', '**/*.liquid', '**/*.json', 'bun.lock') }}" >> $GITHUB_OUTPUT
 
-    # Step 6: Try to restore cached build output
+    # Step 7: Try to restore cached build output
     - name: Cache build
       id: build-cache
       uses: actions/cache@v4
@@ -55,23 +66,28 @@ jobs:
         path: _site
         key: ${{ steps.cache-key.outputs.key }}
     
-    # Step 7: Build the application
+    # Step 8: Build the application
     # Note: This step will run even if the cache is restored, ensuring we always have the latest build
     - name: Build the site
       run: bun run build
     
-    # Step 8: Check for symlinks and hard links in the build output
+    # Step 9: Check for symlinks and hard links in the build output
     - name: Check for symlinks and hard links
       run: |
         echo "Checking for symlinks and hard links in _site directory..."
         find _site -type l -o -type f -links +1 || echo "No symlinks or hard links found."
     
-    # Step 9: Check the size of the build output
+    # Step 10: Check the size of the build output
     - name: Check build output size
       run: |
         echo "Checking size of _site directory..."
         du -sh _site
         
+    # Step 11: List artifact contents
+    - name: List artifact contents
+      run: ls -R _site
+        
+    # Step 12: Upload artifact
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
@@ -89,6 +105,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

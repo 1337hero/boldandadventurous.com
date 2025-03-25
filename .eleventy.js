@@ -38,6 +38,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets/fonts");
   eleventyConfig.addPassthroughCopy("assets/js");
   eleventyConfig.addPassthroughCopy("assets/css");
+  eleventyConfig.addPassthroughCopy("CNAME");
 
   // Date formatting filter (similar to Jekyll's date filter)
   eleventyConfig.addFilter("dateFormat", function(date, format) {
